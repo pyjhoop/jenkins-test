@@ -14,6 +14,6 @@ public class TestApplication {
 	public static void main(String[] args) {
 		new SpringApplicationBuilder(TestApplication.class)
 				.properties(APPLICATION_LOCATIONS)
-				.run(args);;
+				.run(args);
 	}
 }
